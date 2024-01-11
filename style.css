@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+h1 {
+    padding: 30px;
+    color: blue;
+}
+
+.interface {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    padding: 30px;
+    gap: 30px;
+}
+
+.note {
+    height: 250px;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0 , 0.15);
+    font-size: 1.3rem;
+    resize: none;
+}
+
+.create_note {
+    height: 250px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 100px;
+    color: rgba(0, 0, 255, 0.6);
+}
+
+.create_note:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
